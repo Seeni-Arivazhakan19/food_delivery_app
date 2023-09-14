@@ -1,0 +1,32 @@
+/* Userdashboard.css */
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .search-bar form {
+    width: 50%; /* Set the width to 50% */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    flex: 1; /* Let the input take up the available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px 0 0 10px; /* Rounded left corners */
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 0; /* Rounded right corners */
+    cursor: pointer;
+  }
+  
